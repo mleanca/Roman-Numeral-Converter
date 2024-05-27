@@ -1,0 +1,41 @@
+:root {
+    --gray-00: #d0d0d7;
+    --gray-01: #0a0a20;
+    --error: #a94444;
+    --error-background: #ffadae;
+  }
+  
+  *,
+  ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    padding: 50px 20px;
+    font-family: Helvetica, Georgia;
+    font-size: 18px;
+    background-color: var(--gray-01);
+    color: var(--gray-00);
+    display: block;
+  }
+  
+  fieldset {
+    padding: 10px;
+  }
+  
+  .output {
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .alert {
+    color: var(--error);
+    background-color: var(--error-background);
+    padding: 10px;
+  }
